@@ -1,0 +1,401 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Start Header */
+
+header {
+  /* border: 1px solid black; */
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  /* width: 100%; */
+}
+
+.nav {
+  /* border: 1px solid black; */
+  flex: 1;
+  width: 100%;
+}
+
+.nav.search {
+  display: flex;
+  flex: 3.5;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+header .nav.search .img-menu {
+  background-image: url(../img/menu1.png);
+  position: relative;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  top: 23px;
+  left: 30px;
+  /* Hanya untuk membantu melihat garis awal */
+  /* border: 1px solid black; */
+}
+.nav.search span {
+  margin: auto;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+header .nav.search .img-src {
+  /* Hanya untuk membantu melihat garis awal */
+  /* border: 1px solid black; */
+  background-image: url(../img/magnifying-glass.png);
+  background-size: cover;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  top: 30px;
+  right: 50px;
+}
+
+/* End Nav Search */
+
+/* Start Nav Cart */
+.nav.cart {
+  display: flex;
+  box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.nav.cart span {
+  margin: auto;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+header .nav.cart .img-cart {
+  background-image: url(../img/ikon-cart.jpg);
+  background-size: cover;
+  position: relative;
+  width: 17px;
+  height: 17px;
+  right: 105px;
+  top: 33px;
+
+  /* Hanya untuk membantu melihat garis awal */
+  /* border: 1px solid black; */
+}
+/* End Header */
+
+/* Start Main */
+main {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 1000px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+}
+
+/* start aside left */
+.aside-left {
+  /* border: 1px solid black; */
+  flex: 0.7;
+  box-sizing: border-box;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.aside-left .fork-image {
+  /* border: 1px solid black; */
+  background-image: url(../img/fork.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 23px;
+  left: 25px;
+}
+
+.aside-left .clipboard-image {
+  background-image: url(../img/clipboard.png);
+  position: relative;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  top: 80px;
+  left: 25px;
+}
+
+.aside-left .add-image {
+  background-image: url(../img/add.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 150px;
+  left: 25px;
+}
+
+.modal-body .content {
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+  display: flex;
+  height: 250px;
+}
+
+.modal-body .title {
+  /* border: 1px solid black; */
+  flex: 1;
+  height: 250px;
+}
+
+.modal-body .title .name {
+  /* border: 1px solid black; */
+  margin-left: 10px;
+}
+.modal-body .title .image {
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.modal-body .title .price {
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.modal-body .title .category {
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.modal-body .column {
+  /* border: 1px solid black; */
+  flex: 2;
+  height: 250px;
+}
+
+.modal-body .column .column-name {
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  width: 300px;
+  height: 35px;
+
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.modal-body .column .column-image {
+  border: 1px solid #cecece;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 300px;
+  height: 35px;
+
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.modal-body .column .column-price {
+  border: 1px solid #cecece;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.modal-body .column .column-category {
+  border: 1px solid #cecece;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 140px;
+  height: 35px;
+
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.modal-footer .btn {
+  /* border: 1px solid black; */
+  width: 100px;
+}
+
+.modal-footer .btn.cancel {
+  background: #f24f8a;
+  color: white;
+}
+
+.modal-footer .btn.add {
+  background: #57cad5;
+  color: white;
+}
+/* End aside left */
+
+/* start Main content */
+.content {
+  flex: 7.84;
+  box-sizing: border-box;
+  background-color: rgba(190, 195, 202, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.content .card {
+  /* border: 1px solid black; */
+  /* width: 200px; */
+  /* height: 180px; */
+  /* margin: 10px; */
+  border: none;
+  border-radius: 10px 10px 0 0;
+  margin: 20px 30px 10px 30px;
+  background: none;
+  /* overflow: hidden; */
+  /* box-sizing: border-box; */
+}
+
+/* Start image card */
+.image-card1 {
+  background-image: url(../img/img-card/espresso.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card2 {
+  background-image: url(../img/img-card/coffelatte.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card3 {
+  background-image: url(../img/img-card/cappucino.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0;
+}
+.image-card4 {
+  background-image: url(../img/img-card/redvelvet.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card5 {
+  background-image: url(../img/img-card/chocorum.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card6 {
+  background-image: url(../img/img-card/blackforest.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card7 {
+  background-image: url(../img/img-card/chickenkatsu.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card8 {
+  background-image: url(../img/img-card/salmon.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card9 {
+  background-image: url(../img/img-card/wiener.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+/* End of image card */
+
+.title-card {
+  /* border: 1px solid black; */
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  /* top: 180px; */
+  font-size: 17px;
+}
+.price-card {
+  /* border: 1px solid black; */
+  position: relative;
+  /* top: 180px; */
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+/* End content */
+
+/* Start Aside Right */
+.aside-right {
+  flex: 2.43;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  position: relative;
+  top: 5px;
+}
+
+.img-sidecart {
+  box-sizing: border-box;
+  background-image: url(../img/img-sidecart.png);
+  background-size: cover;
+  position: relative;
+  top: 60px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+span.slogan-cart {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  left: 56px;
+}
+
+span.message-cart {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  font-weight: 600;
+  top: 40px;
+  left: 30px;
+  color: #cecece;
+  word-spacing: 0.2em;
+}
+/* End Aside Right */
+/* End Main */
+/* END OF CSS HOME */
+
+/* =============================================================================== */

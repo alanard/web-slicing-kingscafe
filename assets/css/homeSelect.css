@@ -1,0 +1,654 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Start Header */
+
+header {
+  /* border: 1px solid black; */
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  /* width: 100%; */
+}
+
+.nav {
+  /* border: 1px solid black; */
+  flex: 1;
+  width: 100%;
+}
+
+.nav.search {
+  display: flex;
+  flex: 2.85;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+header .nav.search .img-menu {
+  background-image: url(../img/menu1.png);
+  position: relative;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  top: 23px;
+  left: 30px;
+  /* Hanya untuk membantu melihat garis awal */
+  /* border: 1px solid black; */
+}
+.nav.search span {
+  margin: auto;
+  font-size: 25px;
+  font-family: "airbnb", sans-serif;
+  font-weight: bold;
+}
+
+header .nav.search .img-src {
+  /* Hanya untuk membantu melihat garis awal */
+  /* border: 1px solid black; */
+  background-image: url(../img/magnifying-glass.png);
+  background-size: cover;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  top: 30px;
+  right: 50px;
+}
+
+/* End Nav Search */
+
+/* Start Nav Cart */
+.nav.cart {
+  display: flex;
+  box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.nav.cart span {
+  margin: auto;
+  font-size: 23px;
+  font-family: "airbnb", sans-serif;
+  font-weight: bolder;
+}
+
+header .nav.cart .img-cart {
+  /* Hanya untuk membantu melihat garis awal */
+  /* border: 1px solid black; */
+  background-image: url(../img/ikon-cart.jpg);
+  background-size: cover;
+  position: relative;
+  width: 17px;
+  height: 17px;
+  right: 105px;
+  top: 33px;
+}
+/* End Header */
+
+/* Start Main */
+main {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 900px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+}
+
+/* start aside left */
+.aside-left {
+  /* border: 1px solid black; */
+  flex: 0.7;
+  box-sizing: border-box;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.aside-left .fork-image {
+  /* border: 1px solid black; */
+  background-image: url(../img/fork.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 23px;
+  left: 25px;
+}
+
+.aside-left .clipboard-image {
+  background-image: url(../img/clipboard.png);
+  position: relative;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  top: 80px;
+  left: 25px;
+}
+
+.aside-left .add-image {
+  background-image: url(../img/add.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 150px;
+  left: 25px;
+}
+
+/* End aside left */
+
+/* start Main content */
+.content {
+  flex: 7.84;
+  box-sizing: border-box;
+  background-color: rgba(190, 195, 202, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.content .card {
+  /* border: 1px solid black; */
+  /* width: 200px; */
+  /* height: 180px; */
+  /* margin: 10px; */
+  background: none;
+  border: none;
+  border-radius: 10px 10px 0 0;
+  margin: 20px 30px 10px 30px;
+  /* overflow: hidden; */
+  /* box-sizing: border-box; */
+}
+
+/* Start image card */
+.image-card1 {
+  background-image: url(../img/img-card/espresso.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card2 {
+  background-image: url(../img/img-card/coffelatte.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card3 {
+  background-image: url(../img/img-card/cappucino.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0;
+}
+.image-card4 {
+  background-image: url(../img/img-card/redvelvet.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card5 {
+  background-image: url(../img/img-card/chocorum.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card6 {
+  background-image: url(../img/img-card/blackforest.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card7 {
+  background-image: url(../img/img-card/chickenkatsu.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card8 {
+  background-image: url(../img/img-card/salmon.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card9 {
+  background-image: url(../img/img-card/wiener.png);
+  background-size: cover;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Opacitiy */
+.opacity {
+  background: rgba(0, 0, 0, 0.4);
+  margin: -222px 0px;
+  width: 220px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-opacity {
+  background-image: url(../img/logo-img/tick.png);
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+}
+/* End Of Opacity */
+
+/* End of image card */
+
+.title-card {
+  /* border: 1px solid black; */
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  /* top: 180px; */
+  font-size: 17px;
+}
+.price-card {
+  /* border: 1px solid black; */
+  position: relative;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+/* End content */
+
+/* CSS HOME SELECT */
+/* Start Aside Right */
+
+/* Aside Right Home Select */
+.aside-right {
+  flex: 3;
+  box-sizing: border-box;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Img Aside Right */
+.img-aside-right {
+  /* border: 1px solid black; */
+  height: 400px;
+  flex: 1.2;
+  margin: 20px 5px 20px 20px;
+}
+
+.img-aside-right .img1 {
+  /* border: 1px solid black; */
+  background-image: url(../img/img-sideRight-HomeSelect/bear.png);
+  background-size: cover;
+  width: inherit;
+  height: 80px;
+}
+.img-aside-right .img2 {
+  /* border: 1px solid black; */
+  background-image: url(../img/img-sideRight-HomeSelect/blackforest.png);
+  background-size: cover;
+  margin-top: 40px;
+  width: inherit;
+  height: 80px;
+}
+.img-aside-right .img3 {
+  /* border: 1px solid black; */
+  background-image: url(../img/img-sideRight-HomeSelect/salmon.png);
+  background-size: cover;
+  margin-top: 40px;
+  width: inherit;
+  height: 80px;
+}
+
+/* End of img aside right */
+
+/* Title Aside Right */
+.title-aside-right {
+  /* border: 1px solid black; */
+  height: 400px;
+  flex: 1.4;
+  margin: 20px 3px 20px 10px;
+  font-weight: 200;
+  font-family: "airbnb", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.title-aside-right .title1 {
+  /* border: 1px solid black; */
+  width: inherit;
+  height: 80px;
+  margin-top: 3px;
+}
+
+.title-aside-right .title2 {
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  width: inherit;
+  height: 80px;
+}
+
+.title-aside-right .title3 {
+  /* border: 1px solid black; */
+  margin-top: 38px;
+  width: inherit;
+  height: 80px;
+}
+
+/* End Of Title Aside Right */
+
+/* Add Card Aside Right */
+.add-cart {
+  /* border: 1px solid black; */
+  display: flex;
+  margin-top: 28px;
+}
+.add-cart .add-cart-item {
+  border: 1px solid #82de3a;
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  background: rgba(130, 222, 58, 0.2);
+  border-radius: 2px 0px 0px 2px;
+  color: #82de3a;
+  font-family: "Work Sans", sans-serif;
+}
+
+.add-cart .add-cart-item:nth-child(2) {
+  background-color: #ffffff;
+  border-radius: 0;
+}
+
+.add-cart .add-cart-item:last-child {
+  background-color: #ffffff;
+  border-radius: 0px 2px 2px 0px;
+}
+
+/* End Add Card Aside Right */
+
+/* Price Aside Right */
+.price-aside-right {
+  /* border: 1px solid black; */
+  height: 400px;
+  flex: 1;
+  margin: 20px 3px 20px 3px;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+.price1 {
+  /* border: 1px solid black; */
+  margin-top: 60px;
+}
+
+.price2 {
+  /* border: 1px solid black; */
+  margin-top: 95px;
+}
+
+.price3 {
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+/* End Price Aside Right */
+/* ============================================================ */
+
+/* Aside Right Bottom */
+.price-total {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  /* display: flex; */
+  /* width: 300px; */
+  margin: 0px auto;
+  flex-direction: column;
+}
+
+.price-total-info {
+  /* border: 1px solid black; */
+  flex: 1;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.title-price-total {
+  /* border: 1px solid black; */
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder;
+  display: inline-block;
+  flex: 1;
+}
+
+.title-price-total-notice {
+  font-family: "airbnb", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.num-price-total {
+  flex: 1;
+  /* border: 1px solid black; */
+  display: inline-block;
+  font-family: "Work Sans", sans-serif;
+
+  font-size: 18px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.price-total-button {
+  /* border: 1px solid black; */
+  flex: 1;
+  display: flex;
+}
+
+.button-total-info {
+  /* border: 1px solid black; */
+  flex: 1;
+  display: flex;
+}
+
+.button {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 80px;
+}
+
+.button-item.checkout {
+  background: #57cad5;
+  color: white;
+  padding: 12px;
+  border-style: none;
+  font-size: 16px;
+}
+
+.button-item.checkout.btn {
+  border-radius: 0px;
+}
+
+.button-item.cancel {
+  background: #f24f8a;
+  color: white;
+  margin-top: 10px;
+  padding: 12px;
+  border-style: none;
+  font-size: 16px;
+}
+
+/* End Aside Right Bottom */
+
+/* Checkout Modal */
+
+.modal-body .main {
+  /* border: 1px solid black; */
+  padding: 0px 10px 0px 10px;
+  background-color: #ffffff;
+}
+
+/* Modal Title */
+.modal-body .title {
+  /* border: 1px solid black; */
+  /* width: 450px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body .title .checkout {
+  /* border: 1px solid black; */
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.modal-body .title .receipt {
+  /* border: 1px solid black; */
+
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+/* End Modal Title */
+
+/* Cashier Name */
+.modal-body .main .cashier-name {
+  /* border: 1px solid black; */
+  font-size: 13px;
+  /* width: 100px; */
+  height: 50px;
+  font-weight: 600;
+}
+/* End Cashier Name */
+
+/* Content */
+.modal-body .main .content {
+  /* border: 1px solid black; */
+  /* width: 100px; */
+  height: 192px;
+  display: flex;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* Title */
+.modal-body .main .content .title {
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+  /* width: 100px; */
+  height: inherit;
+  flex: 4;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body .main .content .title .title {
+  /* border: 1px solid black; */
+  margin: 0px 0px 5px 0px;
+}
+
+.modal-body .main .content .title .title:last-child {
+  /* border: 1px solid black; */
+  margin: 15px 0px 5px 0px;
+  display: flex;
+  align-items: flex-end;
+}
+/* End Title */
+
+/* Price */
+.modal-body .main .content .price {
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+  /* width: 100px; */
+  height: inherit;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body .main .content .price .price {
+  /* border: 1px solid black; */
+  margin: 0px 0px 5px 0px;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.modal-body .main .content .price .price:last-child {
+  margin-top: 15px;
+}
+
+/* End Price */
+/* End Content */
+
+.modal-body .main .total-price {
+  /* border: 1px solid black; */
+  /* width: 100px; */
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.modal-body .main .method-payment {
+  /* border: 1px solid black; */
+  /* width: 100px; */
+  /* height: 50px; */
+  margin-top: 5px;
+
+  font-weight: 600;
+}
+
+/* Button Checkout */
+.modal-footer .btn {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer .btn.print {
+  /* border: 1px solid black; */
+  width: 500px;
+  /* padding-left: 200px; */
+
+  background: #57cad5;
+  color: #ffffff;
+}
+
+.modal-footer div {
+  /* border: 1px solid black; */
+  flex: 3;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.modal-footer .btn.email {
+  /* border: 1px solid black; */
+  width: 500px;
+  /* padding-left: 180px; */
+
+  background: #f24f8a;
+  color: #ffffff;
+}
+/* End Button Checkout */
+
+/* End Checkout Modal */
